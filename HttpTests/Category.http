@@ -1,0 +1,22 @@
+GET http://localhost:3683/category
+
+###
+
+POST http://localhost:3683/category
+Content-Type: application/json
+
+{
+    "id": 0,
+    "name": "Category Test 1"
+}
+
+###
+
+POST http://localhost:3683/product
+Content-Type: application/json
+
+{
+    "id": "65bd63ca-e4f1-4324-9d61-a7eabd6e4e9c",
+    "name": "Product 1",
+    "categoryId": "1"
+}
